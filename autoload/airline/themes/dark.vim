@@ -60,26 +60,26 @@ let g:airline#themes#dark#palette = {}
 " airline_x/y/z, respectively.
 
 " The dark.vim theme:
-let s:airline_a_normal   = [ '#00005f' , '#dfff00' , 17  , 190 ]
+let s:airline_a_normal   = [ '#00005f' , '#b3ca73' , 17  , 190 ]
 let s:airline_b_normal   = [ '#ffffff' , '#444444' , 255 , 238 ]
 let s:airline_c_normal   = [ '#9cffd3' , '#202020' , 85  , 234 ]
 let g:airline#themes#dark#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 " It should be noted the above is equivalent to:
 " let g:airline#themes#dark#palette.normal = airline#themes#generate_color_map(
-"    \  [ '#00005f' , '#dfff00' , 17  , 190 ],  " section airline_a
+"    \  [ '#00005f' , '#ffcf7f' , 17  , 190 ],  " section airline_a
 "    \  [ '#ffffff' , '#444444' , 255 , 238 ],  " section airline_b
 "    \  [ '#9cffd3' , '#202020' , 85  , 234 ]   " section airline_c
 "    \)
 "
 " In turn, that is equivalent to:
 " let g:airline#themes#dark#palette.normal = {
-"    \  'airline_a': [ '#00005f' , '#dfff00' , 17  , 190 ],  "section airline_a
+"    \  'airline_a': [ '#00005f' , '#ffcf7f' , 17  , 190 ],  "section airline_a
 "    \  'airline_b': [ '#ffffff' , '#444444' , 255 , 238 ],  "section airline_b
 "    \  'airline_c': [ '#9cffd3' , '#202020' , 85  , 234 ],  "section airline_c
 "    \  'airline_x': [ '#9cffd3' , '#202020' , 85  , 234 ],  "section airline_x
 "    \  'airline_y': [ '#ffffff' , '#444444' , 255 , 238 ],  "section airline_y
-"    \  'airline_z': [ '#00005f' , '#dfff00' , 17  , 190 ]   "section airline_z
+"    \  'airline_z': [ '#00005f' , '#ffcf7f' , 17  , 190 ]   "section airline_z
 "    \}
 "
 " airline#themes#generate_color_map() also uses the values provided as
@@ -96,7 +96,7 @@ let g:airline#themes#dark#palette.normal_modified = {
       \ }
 
 
-let s:airline_a_insert = [ '#00005f' , '#00dfff' , 17  , 45  ]
+let s:airline_a_insert = [ '#00005f' , '#7eacc9' , 17  , 45  ]
 let s:airline_b_insert = [ '#ffffff' , '#005fff' , 255 , 27  ]
 let s:airline_c_insert = [ '#ffffff' , '#000080' , 15  , 17  ]
 let g:airline#themes#dark#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
@@ -145,7 +145,7 @@ let g:airline#themes#dark#palette.commandline = airline#themes#generate_color_ma
 " will be red instead of the section's foreground color. You can also have
 " multiple parts with accents within a section.
 let g:airline#themes#dark#palette.accents = {
-      \ 'red': [ '#ff0000' , '' , 160 , ''  ]
+      \ 'red': [ '#e35f48' , '' , 160 , ''  ]
       \ }
 
 
