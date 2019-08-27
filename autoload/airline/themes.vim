@@ -58,16 +58,16 @@ function! airline#themes#patch(palette)
   let a:palette.accents.italic = [ '', '', '', '', 'italic' ]
 
   if !has_key(a:palette.accents, 'red')
-    let a:palette.accents.red = [ '#e35f48' , '' , 160 , '' ]
+    let a:palette.accents.red = [ '#e35f48' , '' , 1 , '' ]
   endif
   if !has_key(a:palette.accents, 'green')
-    let a:palette.accents.green = [ '#b3ca73' , '' , 22  , '' ]
+    let a:palette.accents.green = [ '#b3ca73' , '' , 2  , '' ]
   endif
   if !has_key(a:palette.accents, 'blue')
-    let a:palette.accents.blue = [ '#7eacc9' , '' , 27  , '' ]
+    let a:palette.accents.blue = [ '#7eacc9' , '' , 4  , '' ]
   endif
   if !has_key(a:palette.accents, 'yellow')
-    let a:palette.accents.yellow = [ '#ffcf7f' , '' , 190 , '' ]
+    let a:palette.accents.yellow = [ '#ffcf7f' , '' , 3 , '' ]
   endif
   if !has_key(a:palette.accents, 'orange')
     let a:palette.accents.orange = [ '#df5f00' , '' , 166 , '' ]
