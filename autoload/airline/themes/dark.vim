@@ -60,26 +60,26 @@ let g:airline#themes#dark#palette = {}
 " airline_x/y/z, respectively.
 
 " The dark.vim theme:
-let s:airline_a_normal   = [ '#00005f' , '#b3ca73' , 17  , 3 ]
+let s:airline_a_normal   = [ '#00005f' , '#b3ca73' , 17  , 2 ]
 let s:airline_b_normal   = [ '#ffffff' , '#444444' , 255 , 238 ]
 let s:airline_c_normal   = [ '#9cffd3' , '#202020' , 85  , 234 ]
 let g:airline#themes#dark#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 " It should be noted the above is equivalent to:
 " let g:airline#themes#dark#palette.normal = airline#themes#generate_color_map(
-"    \  [ '#00005f' , '#b3ca73' , 17  , 3 ],  " section airline_a
+"    \  [ '#00005f' , '#b3ca73' , 17  , 2 ],  " section airline_a
 "    \  [ '#ffffff' , '#444444' , 255 , 238 ],  " section airline_b
 "    \  [ '#9cffd3' , '#202020' , 85  , 234 ]   " section airline_c
 "    \)
 "
 " In turn, that is equivalent to:
 " let g:airline#themes#dark#palette.normal = {
-"    \  'airline_a': [ '#00005f' , '#b3ca73' , 17  , 3 ],  "section airline_a
+"    \  'airline_a': [ '#00005f' , '#b3ca73' , 17  , 2 ],  "section airline_a
 "    \  'airline_b': [ '#ffffff' , '#444444' , 255 , 238 ],  "section airline_b
 "    \  'airline_c': [ '#9cffd3' , '#202020' , 85  , 234 ],  "section airline_c
 "    \  'airline_x': [ '#9cffd3' , '#202020' , 85  , 234 ],  "section airline_x
 "    \  'airline_y': [ '#ffffff' , '#444444' , 255 , 238 ],  "section airline_y
-"    \  'airline_z': [ '#00005f' , '#b3ca73' , 17  , 3 ]   "section airline_z
+"    \  'airline_z': [ '#00005f' , '#b3ca73' , 17  , 2 ]   "section airline_z
 "    \}
 "
 " airline#themes#generate_color_map() also uses the values provided as
